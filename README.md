@@ -25,3 +25,13 @@ It provides a user-friendly interface for students to log in, register for cours
 ---
 
 ## 📂 Project Structure
+frontend/
+│── public/ # Static files
+│── src/ # React source code
+│ ├── components/ # UI components
+│ ├── pages/ # Page-level components
+│ ├── App.js # Main app file
+│ ├── index.js # Entry point
+│── package.json # Dependencies
+│── .gitignore # Ignored files
+│── README.md # Project documentation
