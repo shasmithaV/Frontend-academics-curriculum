@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4eae6; /* Light pinkish background color */
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  color: #2c6e90;
+  margin: 0;
+}
+
+.welcome {
+  font-size: 18px;
+  color: #678fa0;
+  margin-bottom: 30px;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 80%;
+  cursor: pointer;
+  margin: 0 auto 15px;
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.signin-link {
+  font-size: 14px;
+  color: #1a73e8;
+  cursor: pointer;
+}

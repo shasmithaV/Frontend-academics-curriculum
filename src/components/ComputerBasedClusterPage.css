@@ -1,0 +1,61 @@
+/* src/ComputerBasedCluster.css */
+
+.computer-cluster-page {
+    padding: 20px;
+    background-color: #f8fbf9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Align everything to the center */
+    text-align: right;
+  }
+  
+  .cluster-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .department-list {
+    width: 50%; /* Adjust as necessary to fit the page layout */
+  }
+  
+  .department-item {
+    margin-bottom: 20px;
+  }
+  
+  .department-title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .arrow {
+    font-size: 18px;
+  }
+  
+  .dropdown {
+    margin-top: 10px;
+  }
+  
+  .dropdown button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+  }
+  
+  .dropdown button:hover {
+    background-color: #f0f0f0;
+  }
+  

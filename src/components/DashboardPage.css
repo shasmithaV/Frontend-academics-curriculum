@@ -1,0 +1,97 @@
+/* Basic reset for full-screen and centering alignment */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Main app container */
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #F8F9FB;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 300px; /* Fixed width for the sidebar */
+  background-color: #d0e2f0;
+  padding: 20px;
+}
+
+/* Dashboard main container aligned to the center */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-aligns content inside the dashboard */
+  justify-content: center; /* Vertically centers the content */
+  max-width: 600px;
+  width: 100%;
+  margin: auto; /* Center the dashboard container within the available space */
+  padding: 20px;
+}
+
+/* Welcome section with stacked alignment */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Avatar styling */
+.avatar {
+  background-color: #ADD8E6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Text styling for welcome message */
+.welcome-text h2 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.welcome-text h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Dashboard and support sections */
+.student-dashboard, .support {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.student-dashboard h3, .support h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.support p {
+  margin: 5px 0;
+}
+
+a {
+  color: #2E8BC0;
+  text-decoration: none;
+}

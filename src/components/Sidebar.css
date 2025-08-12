@@ -1,0 +1,81 @@
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f7f7f7; /* Match admin sidebar background */
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Match admin sidebar shadow */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; /* Match admin header margin */
+}
+
+.logo {
+  width: 40px; /* Match admin logo size */
+  margin-right: 10px; /* Match admin logo margin */
+}
+
+.sidebar-header h2 {
+  font-size: 18px;
+  font-weight: 600; /* Match admin header font weight */
+  color: #0077b6; /* Optional: Change color to match admin */
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  width: 100%; /* Ensure full width */
+}
+
+.sidebar-menu li {
+  margin: 15px 0; /* Match admin item margin */
+}
+
+.menu-item, .submenu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #f9f9f9; /* Match admin item background */
+  border-radius: 8px; /* Match admin border radius */
+  transition: background-color 0.3s ease; /* Match admin transition */
+}
+
+.menu-item.active {
+  background-color: #e6f7ff; /* Match active state */
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px; /* Submenu indent */
+}
+
+.submenu-item {
+  margin-top: 5px; /* Submenu item margin */
+}
+
+.menu-item:hover, .submenu-item:hover {
+  background-color: #e6f7ff; /* Match hover effect */
+}
+
+.icon {
+  width: 24px; /* Match admin icon size */
+  height: 24px; /* Match admin icon height */
+  margin-right: 15px; /* Match admin icon margin */
+}
+
+.arrow {
+  font-size: 18px; /* Optional: keep this if needed */
+  color: #000; /* Optional: keep this if needed */
+}

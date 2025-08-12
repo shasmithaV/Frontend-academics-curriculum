@@ -1,0 +1,92 @@
+/* Open Elective Styles */
+.open-elective-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  padding: 20px;
+  max-width: 1050px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the page content */
+  font-family: 'Arial', sans-serif;
+  background-color: #f8fbf9; /* Add the background color from Professional Elective */
+}
+
+.confirmation-status {
+  margin-top: 50px; /* Reduced top margin to balance the content */
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 100%; /* Make it span full width */
+  max-width: 600px; /* Restrict the max width for readability */
+}
+
+.electives-list {
+  margin-bottom: 20px;
+  text-align: right; /* Align the text to the right */
+  width: 100%;
+}
+
+.electives-list label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: left; /* Ensure individual elective labels are left-aligned */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Elective Container from ProfessionalElectivePage */
+.elective-container {
+  display: flex;
+  text-align: flex-start;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8fbf9;
+}
+
+.confirmation-status-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 200px;
+  width: 400px;
+  background-color: #f8f8f8;
+  text-align: flex;
+}
+
+.elective-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-option {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
